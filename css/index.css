@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+body {
+  background-color: #090b1a;
+  font-size: 15px;
+  height: 100vh;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 80%;
+  margin: calc(100vh*0.15) auto;
+  height: 60%;
+  font-family: 'Inter', sans-serif;
+  background-color: #1b1938;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 7rem;
+}
+
+.main__text-title {
+  color: white;
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+.main__text-title span {
+  color: #aa5cdb;
+}
+
+.main__text-descr {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+}
+
+.main__inner {
+  margin-top: 2rem;
+  padding-right: 5rem;
+}
+
+.main__img {
+  position: relative;
+}
+
+.main__img img {
+  height: 100%;
+}
+
+.main__img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(170, 92, 219, 0.5);
+}
+
+.statistics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.statistics__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.statistics__count {
+  color: white;
+  font-size: 2.2rem;
+}
+
+.statistics__text {
+  margin-top: 1rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: 'Lexend Deca', sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.attribution {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.75);
+  bottom: 15px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+/*# sourceMappingURL=index.css.map */
