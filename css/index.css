@@ -39,14 +39,14 @@ h1 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 5rem 15rem 5rem 6rem;
+  padding: 5rem 6rem 5rem 6rem;
   width: 50%;
 }
 
 .main__text-title {
   color: white;
-  font-size: 2.5rem;
-  line-height: 3rem;
+  font-size: 2rem;
+  line-height: 2.5rem;
 }
 
 .main__text-title span {
@@ -54,6 +54,7 @@ h1 {
 }
 
 .main__text-descr {
+  margin-top: 1.7rem;
   color: rgba(255, 255, 255, 0.75);
   font-size: 1rem;
   line-height: 1.8rem;
@@ -125,15 +126,15 @@ h1 {
 
 @media (max-width: 450px) {
   html {
-    font-size: calc(15px + (19 - 15) * ((100vw - 320px) / (1200 - 320)));
+    font-size: 19px;
   }
   .main {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: 70vh;
-    margin: calc(100vh*0.15) auto;
+    height: 26rem;
+    margin: calc(100vh*0.10) auto;
   }
   .main__text {
     -webkit-box-ordinal-group: 2;

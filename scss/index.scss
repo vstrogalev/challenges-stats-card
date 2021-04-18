@@ -28,17 +28,18 @@ h1 {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding: 5rem 15rem 5rem 6rem;
+        padding: 5rem 6rem 5rem 6rem;
         width: 50%;
         &-title {
             color: hsl(0, 0%, 100%);
-            font-size: 2.5rem;
-            line-height: 3rem;
+            font-size: 2rem;
+            line-height: 2.5rem;
             span {
                 color: hsl(277, 64%, 61%);
             }
         }
         &-descr {
+            margin-top: 1.7rem;
             color: hsla(0, 0%, 100%, 0.75);
             font-size: 1rem;
             line-height: 1.8rem;

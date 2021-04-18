@@ -1,11 +1,11 @@
 @media (max-width: 450px) {
     html {
-        font-size: calc(15px + (19 - 15) * ((100vw - 320px) / (1200 - 320)));;
+        font-size: 19px;
     }
     .main {
         flex-direction: column;
-        height: 70vh;
-        margin: (calc(100vh*0.15)) auto;
+        height: 26rem;
+        margin: (calc(100vh*0.10)) auto;
         &__text {
             order: 1;
             width: 100%;
