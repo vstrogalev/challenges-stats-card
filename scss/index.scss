@@ -38,7 +38,7 @@ h1 {
             font-size: 2rem;
             line-height: 2.5rem;
             span {
-                color: hsl(277, 64%, 61%);
+                color: rgb(170, 92, 219);
             }
         }
         &-descr {
@@ -51,11 +51,7 @@ h1 {
     &__img {
         width: 50%;
         position: relative;
-        img {
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-        }
+        background: url('../images/image-header-desktop.jpg') no-repeat 50%/cover;
         &-overlay {
             position: absolute;
             top: 0;

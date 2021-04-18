@@ -66,13 +66,7 @@ h1 {
 .main__img {
   width: 50%;
   position: relative;
-}
-
-.main__img img {
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  background: url("../images/image-header-desktop.jpg") no-repeat 50%/cover;
 }
 
 .main__img-overlay {
