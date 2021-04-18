@@ -5,12 +5,11 @@
 }
 
 html {
-    font-size: calc(12px + (15 - 12) * ((100vw - 450px) / (1440 - 450)));
+    font-size: calc(10px + (15 - 10) * ((100vw - 450px) / (1440 - 450)));
 }
 
 body {
     background-color: hsl(233, 47%, 7%);
-    font-size: 15px;
     height: 100vh;
     margin: 0;
     padding: 0;

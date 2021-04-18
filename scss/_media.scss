@@ -1,4 +1,7 @@
 @media (max-width: 450px) {
+    html {
+        font-size: 19px;
+    }
     .main {
         flex-direction: column;
         height: 26rem;

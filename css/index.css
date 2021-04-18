@@ -5,12 +5,11 @@
 }
 
 html {
-  font-size: calc(12px + (15 - 12) * ((100vw - 450px) / (1440 - 450)));
+  font-size: calc(10px + (15 - 10) * ((100vw - 450px) / (1440 - 450)));
 }
 
 body {
   background-color: #090b1a;
-  font-size: 15px;
   height: 100vh;
   margin: 0;
   padding: 0;
@@ -129,6 +128,9 @@ h1 {
 }
 
 @media (max-width: 450px) {
+  html {
+    font-size: 19px;
+  }
   .main {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
