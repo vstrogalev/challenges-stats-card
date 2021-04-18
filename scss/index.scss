@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-html {
-    font-size: calc(10px + (15 - 10) * ((100vw - 450px) / (1440 - 450)));
-}
-
 body {
     background-color: hsl(233, 47%, 7%);
     height: 100vh;
